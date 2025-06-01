@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>id Example</title>
+</head>
+<body>
+
+  <h1 id="title">Hello</h1>
+
+  <button onclick="changeTitle()">Click Me</button>
+
+  <script>
+    function changeTitle() {
+      document.getElementById("title").textContent = "Welcome!";
+    }
+  </script>
+
+</body>
+</html>
