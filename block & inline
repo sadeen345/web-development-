@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Block vs Inline Elements</title>
+  <style>
+    .block-example, .inline-example {
+      margin-bottom: 20px;
+    }
+    .block-box, .inline-box {
+      border: 2px solid black;
+      padding: 10px;
+      margin: 5px;
+    }
+    .block-box {
+      display: block;
+      background-color: #d0f0fd;
+    }
+    .inline-box {
+      display: inline;
+      background-color: #fdd0d0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Block vs Inline Elements in HTML</h1>
+
+  <p>
+    In HTML, elements are classified into two main types based on how they behave in the document layout: <strong>Block</strong> and <strong>Inline</strong>.
+  </p>
+
+  <div class="block-example">
+    <h2>Block Elements</h2>
+    <p>Block elements:</p>
+    <ul>
+      <li>Start on a new line</li>
+      <li>Take up the full width available</li>
+      <li>Can contain other block or inline elements</li>
+    </ul>
+    <p>Examples:</p>
+    <div class="block-box">This is a &lt;div&gt; (Block)</div>
+    <p class="block-box">This is a &lt;p&gt; (Block)</p>
+    <h3 class="block-box">This is a &lt;h3&gt; (Block)</h3>
+  </div>
+
+  <div class="inline-example">
+    <h2>Inline Elements</h2>
+    <p>Inline elements:</p>
+    <ul>
+      <li>Do not start on a new line</li>
+      <li>Only take up as much width as needed</li>
+      <li>Can only contain text or other inline elements</li>
+    </ul>
+    <p>Examples inside a sentence:</p>
+    <p>
+      <span class="inline-box">&lt;span&gt;</span> and 
+      <a href="#" class="inline-box">&lt;a&gt;</a> and 
+      <strong class="inline-box">&lt;strong&gt;</strong> are inline elements.
+    </p>
+  </div>
+
+</body>
+</html>
