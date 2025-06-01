@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <title>Food Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8e1;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #d2691e;
+    }
+    h2 {
+      color: #b35900;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Restaurant Menu</h1>
+
+  <h2>1. Main Dishes</h2>
+  <ul>
+    <li>Grilled Chicken</li>
+    <li>Beef Burger</li>
+    <li>Spaghetti Bolognese</li>
+    <li>Vegetarian Pizza</li>
+  </ul>
+
+  <h2>2. Drinks</h2>
+  <ol>
+    <li>Water</li>
+    <li>Orange Juice</li>
+    <li>Soda</li>
+    <li>Lemon Mint</li>
+  </ol>
+
+  <h2>3. Desserts</h2>
+  <dl>
+    <dt>Chocolate Cake</dt>
+    <dd>Rich chocolate flavor with cream</dd>
+
+    <dt>Ice Cream</dt>
+    <dd>Available in vanilla, chocolate, and strawberry</dd>
+
+    <dt>Baklava</dt>
+    <dd>Traditional sweet with nuts and syrup</dd>
+  </dl>
+
+</body>
+</html>
