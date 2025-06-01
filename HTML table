@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gold Prices in Jordan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #bfa022;
+    }
+    table {
+      width: 50%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #bfa022;
+      color: white;
+    }
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Gold Prices in Jordan</h1>
+
+  <table>
+    <caption>Gold Prices by Carat (Jordanian Dinar per gram)</caption>
+    <thead>
+      <tr>
+        <th>Gold Carat</th>
+        <th>Today's Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>24 Carat</td>
+        <td>38.50 JOD</td>
+      </tr>
+      <tr>
+        <td>22 Carat</td>
+        <td>35.30 JOD</td>
+      </tr>
+      <tr>
+        <td>18 Carat</td>
+        <td>28.90 JOD</td>
+      </tr>
+      <tr>
+        <td>14 Carat</td>
+        <td>22.50 JOD</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
